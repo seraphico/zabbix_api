@@ -1,1 +1,11 @@
 # This is a zabbix api progrems.
+Usage:
+     1. set zabbix.conf
+        1>. url , username , password
+     2. check --help 
+        1>. python  main.py --help 
+     3. example
+        1> python main.py -M groupAdd -G <groupname>
+        2> python main.py -M groupDel -g <groupid>
+        3> .........
+        
